@@ -1,13 +1,13 @@
-package hello.springmvn;
+package hello.springmvc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringmvnApplication {
+public class SpringmvcApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringmvnApplication.class, args);
+		SpringApplication.run(SpringmvcApplication.class, args);
 	}
 
 }
