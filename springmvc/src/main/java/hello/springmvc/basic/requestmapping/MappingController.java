@@ -40,4 +40,15 @@ public class MappingController {
         log.info("mapping-get-v2");
         return "ok";
     }
+
+    /**
+     * PathVariable 사용
+     * 변수명이 같으면 생략 가능
+     * @PathVariable("userId") String userId -> @PathVariable String userId
+     */
+    @GetMapping("/mapping/{userId}")
+    public String mappingPath(@PathVariable("userId") String data) {
+     log.info("mappingPath userId={}", data);
+     return "ok";
+    }
 }
