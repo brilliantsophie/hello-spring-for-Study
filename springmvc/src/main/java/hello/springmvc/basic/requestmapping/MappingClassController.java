@@ -19,7 +19,7 @@ public class MappingClassController {
     public String addUser() {
         return "post user";
     }
-    /**
+    /**ㄱ
      * GET /mapping/users/{userId}
      */
     @GetMapping("/{userId}")
